@@ -1,0 +1,374 @@
+{
+    "suppress_output" : true,
+    "show_progress" : true,
+    "output_dir" : "results/experiment2/",
+    "timeout" : 600,
+    "max_memory": 8000,
+    "number_of_runs" : 1,
+    "repeating_parameters": [
+     {"file": "cnf/evo/Automotive02/automotive2_1.dimacs"},
+{"file": "cnf/evo/Automotive02/automotive2_2.dimacs"},
+{"file": "cnf/evo/Automotive02/automotive2_3.dimacs"},
+{"file": "cnf/evo/Automotive02/automotive2_4.dimacs"},
+{"file": "cnf/evo/Automotive03/automotive03_01.dimacs"},
+{"file": "cnf/evo/Automotive03/automotive03_02.dimacs"},
+{"file": "cnf/evo/Automotive03/automotive03_03.dimacs"},
+{"file": "cnf/evo/Automotive03/automotive03_04.dimacs"},
+{"file": "cnf/evo/Automotive03/automotive03_05.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_01.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_02.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_03.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_04.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_05.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_06.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_07.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_08.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_09.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_10.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_11.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_12.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_13.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_14.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_15.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_16.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_17.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_18.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_19.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_20.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_21.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_22.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_23.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_24.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_25.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_26.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_27.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_28.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_29.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_30.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_31.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_32.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_33.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_34.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_35.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_36.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_37.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_38.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_39.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_40.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_41.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_42.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_43.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_44.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_45.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_46.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_47.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_48.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_49.dimacs"},
+{"file": "cnf/evo/Automotive04/automotive04_50.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_01.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_02.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_03.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_04.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_05.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_06.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_07.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_08.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_09.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_10.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_11.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_12.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_13.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_14.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_15.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_16.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_17.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_18.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_19.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_20.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_21.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_22.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_23.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_24.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_25.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_26.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_27.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_28.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_29.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_30.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_31.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_32.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_33.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_34.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_35.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_36.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_37.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_38.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_39.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_40.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_41.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_42.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_43.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_44.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_45.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_46.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_47.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_48.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_49.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_50.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_51.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_52.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_53.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_54.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_55.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_56.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_57.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_58.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_59.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_60.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_61.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_62.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_63.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_64.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_65.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_66.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_67.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_68.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_69.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_70.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_71.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_72.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_73.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_74.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_75.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_76.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_77.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_78.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_79.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_80.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_81.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_82.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_83.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_84.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_85.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_86.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_87.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_88.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_89.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_90.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_91.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_92.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_93.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_94.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_95.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_96.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_97.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_98.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_99.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_100.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_101.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_102.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_103.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_104.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_105.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_106.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_107.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_108.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_109.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_110.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_111.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_112.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_113.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_114.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_115.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_116.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_117.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_118.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_119.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_120.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_121.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_122.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_123.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_124.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_125.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_126.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_127.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_128.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_129.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_130.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_131.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_132.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_133.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_134.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_135.dimacs"},
+{"file": "cnf/evo/Automotive05/automotive05_136.dimacs"},
+{"file": "cnf/evo/busybox/2007-05-20_17-12-43.dimacs"},
+{"file": "cnf/evo/busybox/2007-06-01_14-40-03.dimacs"},
+{"file": "cnf/evo/busybox/2007-07-01_14-53-06.dimacs"},
+{"file": "cnf/evo/busybox/2007-08-01_23-30-54.dimacs"},
+{"file": "cnf/evo/busybox/2007-09-02_14-51-54.dimacs"},
+{"file": "cnf/evo/busybox/2007-10-01_09-59-01.dimacs"},
+{"file": "cnf/evo/busybox/2007-11-02_23-31-10.dimacs"},
+{"file": "cnf/evo/busybox/2007-12-02_01-43-18.dimacs"},
+{"file": "cnf/evo/busybox/2008-01-02_19-55-04.dimacs"},
+{"file": "cnf/evo/busybox/2008-02-01_01-41-57.dimacs"},
+{"file": "cnf/evo/busybox/2008-03-01_09-35-39.dimacs"},
+{"file": "cnf/evo/busybox/2008-04-01_14-47-57.dimacs"},
+{"file": "cnf/evo/busybox/2008-05-02_09-19-29.dimacs"},
+{"file": "cnf/evo/busybox/2008-06-01_10-10-22.dimacs"},
+{"file": "cnf/evo/busybox/2008-07-01_01-57-36.dimacs"},
+{"file": "cnf/evo/busybox/2008-08-01_02-15-05.dimacs"},
+{"file": "cnf/evo/busybox/2008-09-01_15-23-04.dimacs"},
+{"file": "cnf/evo/busybox/2008-10-02_13-30-31.dimacs"},
+{"file": "cnf/evo/busybox/2008-11-01_00-10-51.dimacs"},
+{"file": "cnf/evo/busybox/2008-12-01_12-36-41.dimacs"},
+{"file": "cnf/evo/busybox/2009-01-01_17-52-09.dimacs"},
+{"file": "cnf/evo/busybox/2009-02-01_00-40-45.dimacs"},
+{"file": "cnf/evo/busybox/2009-03-01_04-50-18.dimacs"},
+{"file": "cnf/evo/busybox/2009-04-01_11-24-04.dimacs"},
+{"file": "cnf/evo/busybox/2009-05-01_03-00-04.dimacs"},
+{"file": "cnf/evo/busybox/2009-06-01_11-26-30.dimacs"},
+{"file": "cnf/evo/busybox/2009-07-02_12-04-50.dimacs"},
+{"file": "cnf/evo/busybox/2009-08-01_06-53-03.dimacs"},
+{"file": "cnf/evo/busybox/2009-09-02_11-49-25.dimacs"},
+{"file": "cnf/evo/busybox/2009-10-02_01-10-32.dimacs"},
+{"file": "cnf/evo/busybox/2009-11-01_04-01-30.dimacs"},
+{"file": "cnf/evo/busybox/2009-12-01_02-32-01.dimacs"},
+{"file": "cnf/evo/busybox/2010-01-01_16-45-43.dimacs"},
+{"file": "cnf/evo/busybox/2010-02-01_04-55-30.dimacs"},
+{"file": "cnf/evo/busybox/2010-03-02_15-02-45.dimacs"},
+{"file": "cnf/evo/busybox/2010-04-01_15-09-44.dimacs"},
+{"file": "cnf/evo/busybox/2010-05-02_14-17-07.dimacs"},
+{"file": "cnf/evo/financial_services/2017-05-22.dimacs"},
+{"file": "cnf/evo/financial_services/2017-09-28.dimacs"},
+{"file": "cnf/evo/financial_services/2017-10-20.dimacs"},
+{"file": "cnf/evo/financial_services/2017-11-20.dimacs"},
+{"file": "cnf/evo/financial_services/2017-12-22.dimacs"},
+{"file": "cnf/evo/financial_services/2018-01-23.dimacs"},
+{"file": "cnf/evo/financial_services/2018-02-20.dimacs"},
+{"file": "cnf/evo/financial_services/2018-03-26.dimacs"},
+{"file": "cnf/evo/financial_services/2018-04-23.dimacs"},
+{"file": "cnf/evo/financial_services/2018-05-09.dimacs"} 
+    ],
+    "cmd_calls" : [
+        {
+            "name" : "sharpSAT",
+            "command" : "solvers/sharpSAT -cs {memory} {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+			"memory": "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "countAntom",
+            "command" : "solvers/countAntom --memSize={memory} {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "d4",
+            "command" : "solvers/d4 {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "c2d",
+            "command" : "solvers/c2d -smooth_all -count -in_memory -cache_size {memory} -in {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "cachet",
+            "command" : "solvers/cachet-wmc -c {memory} {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "dsharp",
+            "command" : "solvers/dsharp -cs {memory} {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "miniC2D",
+            "command" : "solvers/miniC2D/bin/linux/miniC2D --model_counter --in_memory --cnf {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "ganak",
+            "command" : "solvers/ganak/bin/ganak -cs {memory} {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        }
+    ]
+}
