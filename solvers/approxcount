@@ -1,0 +1,4 @@
+#!/bin/sh
+
+timeout 610s approxcount -exact_count -1000 -exact_time_limit 600 < $1
+

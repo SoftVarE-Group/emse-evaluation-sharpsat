@@ -1,6 +1,6 @@
 ## The solvers
 
-For our empirical evaluation, we considered the following solvers/ knowledge compilers. Note that due to licensing issues we cannot provide each solver in this repository. In this case, you can acccess the solver by the provided links. Several solvers require the GMP Bignumpackage to handle large numbers of satisfying assignments. If binaries do not work, rebuilding them using the source in the provided links may help. If there are any problems with getting the benchmark to run, we gladly receive your feedback and try our best to fix the problems.
+For our empirical evaluation, we considered the following solvers/ knowledge compilers. Note that due to licensing issues we cannot provide each solver in this repository (Cachet, c2d, and approxCount are missing). In this case, you can acccess the solver by the provided links. Several solvers require the GMP Bignumpackage to handle large numbers of satisfying assignments. If binaries do not work, rebuilding them using the source in the provided links may help. If there are any problems with getting the benchmark to run, we gladly receive your feedback and try our best to fix the problems.
 
 ### DPLL
 

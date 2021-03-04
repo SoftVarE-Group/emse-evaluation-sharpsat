@@ -200,7 +200,7 @@
         },
         {
             "name" : "cachet",
-            "command" : "solvers/cachet-wmc -c {memory} {file}",
+            "command" : "solvers/cachet-wmc {file} -c {memory}",
             "print_parameters": ["file"],
             "instances" : [
                 {
