@@ -1,10 +1,10 @@
 ## The solvers
 
-For our empirical evaluation, we considered the following solvers/ knowledge compilers.
+For our empirical evaluation, we considered the following solvers/ knowledge compilers. Note that due to licensing issues we cannot provide each solver in this repository. In this case, you can acccess the solver by the provided links.
 
 ### DPLL
 
-* [Cachet](https://www.cs.rochester.edu/u/kautz/Cachet/)
+* [Cachet](https://www.cs.rochester.edu/u/kautz/Cachet/) (Solver not included here due to License)
 * [countAntom](https://projects.informatik.uni-freiburg.de/projects/countantom)
 * [Ganak](https://github.com/meelgroup/ganak)
 * [PicoSAT](http://fmv.jku.at/picosat/)
