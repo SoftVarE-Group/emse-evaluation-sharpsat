@@ -1,0 +1,98 @@
+The miniC2D Package
+miniC2D version 1.0.0, Sep 8, 2015
+http://reasoning.cs.ucla.edu/minic2d
+
+A software package for knowledge compilation and model counting based on
+exhaustive DPLL. For knowledge compilation, it can be used to compile CNFs into
+Sentential Decision Diagrams (SDDs). For model counting, it can be used to do
+(weighted) model counting of CNFs.
+
+FILES
+
+  bin/       This directory contains hgr2htree (see below), and also the
+             executable compiled from the make command will be located in here.
+  include/   This directory contains header files.
+  lib/       This directory contains pre-compiled libraries needed to compile
+             the miniC2D package (both Linux and MacOS X are supported).
+  src/       This directory includes the source for the compilation/counting
+             algorithm.
+  Makefile   A Makefile.
+  LICENSE    This file includes the license for the miniC2D package.
+  README     This is this file.
+
+COMPILATION
+
+A simple Makefile is provided for compiling the miniC2D package, which can be
+compiled by simply running the "make" command.
+
+NOTES
+
+To get help about various options, you can run the following on the command
+line:
+
+  $ ./bin/miniC2D --help
+
+In the following we list some key differences between the miniC2D package and
+the c2d compiler, along with some other useful information.
+
+(1) The miniC2D package can be used as a pure (weighted) model counter. That is,
+there is an option (--model_counter or -W), which counts the models of the input
+CNF, without generating a compilation of it. To use it for weighted model
+counting, weights of literals should be provided in the input CNF file using a
+line like this:
+
+ c weights 17 23 .3 7 5.5 ...
+
+That is, the line starts with 'c weights', followed by the weights of
+literals 1, -1, 2, -2, ... , n, -n, where n is the number of variables in the
+input CNF (which is given on the line "p cnf <var count> <clause count>".
+
+Note that the model counting with compilation uses "bignum", while straight
+(weighted) model counting uses "double".
+
+(2) The miniC2D package comes with the source code for the main
+compilation/model counting algorithm, which uses a new formal framework that is
+described in the paper:
+
+  "A Top-Down Compiler for Sentential Decision Diagrams"
+  by Umut Oztok and Adnan Darwiche
+  To appear in Proceedings of the 24th International Joint Conference on
+  Artificial Intelligence, 2015
+
+The output of miniC2D can be easily converted into an SDD (in linear time).
+
+(3) The miniC2D package works on a (decision) vtree, instead of a dtree.
+
+(4) The miniC2D package runs on 64-bit machines, instead of 32-bit machines.
+
+(5) The miniC2D package uses RSat as a backend SAT solver.
+
+(6) The generation of vtrees using hypergraph partitioning invokes a separate
+executable called hgr2htree, which must be kept in the same directory as the
+miniC2D executable. However, the process of invoking hgr2htree is invisible to
+the user.
+
+ABOUT hgr2htree
+
+Generating vtrees using hypergraph partitioning (i.e., --vtree_method or -m is 0
+or 1) is based on the hmetis program, for which the only available library is
+32-bit.  Hence, hgr2htree is a 32-bit executable. In case your 64-bit platform
+does not have the necessary 32-bit libraries to run hgr2htree installed, you
+should install them separately. The packages needed are system dependent; here
+are minimum requirements for some popular Linux distributions:
+
+====
+Packages and installation for Ubuntu or Debian:
+
+  libc6-i386    (sudo apt-get install libc6-i386)
+  lib32stdc++6  (sudo apt-get install lib32stdc++6)
+
+====
+Packages and installation for RedHat:
+
+  glibc.i686      (yum install glibc.i686)
+  libstdc++.i686  (yum install libstdc++.i686)
+
+Feedback, bug reports, and questions can be sent to the email address below:
+
+  miniC2D@cs.ucla.edu
