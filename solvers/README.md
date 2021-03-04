@@ -5,8 +5,8 @@ For our empirical evaluation, we considered the following solvers/ knowledge com
 ### DPLL
 
 * [Cachet](https://www.cs.rochester.edu/u/kautz/Cachet/) (Solver not included here due to License)
-* [countAntom](https://projects.informatik.uni-freiburg.de/projects/countantom)
-* [Ganak](https://github.com/meelgroup/ganak)
+* [countAntom](https://projects.informatik.uni-freiburg.de/projects/countantom) (Binary provided)
+* [Ganak](https://github.com/meelgroup/ganak) (Source provided)
 * [PicoSAT](http://fmv.jku.at/picosat/)
 * [Relsat](https://code.google.com/archive/p/relsat/)
 * [sharpCDCL](http://tools.computational-logic.org/content/sharpCDCL.php)
