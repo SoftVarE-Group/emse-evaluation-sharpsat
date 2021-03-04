@@ -1,0 +1,2 @@
+This package is provided without any warrantee. It is
+free to use and distribute for research purposes only.

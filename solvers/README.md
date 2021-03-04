@@ -1,16 +1,16 @@
 ## The solvers
 
-For our empirical evaluation, we considered the following solvers/ knowledge compilers. Note that due to licensing issues we cannot provide each solver in this repository. In this case, you can acccess the solver by the provided links.
+For our empirical evaluation, we considered the following solvers/ knowledge compilers. Note that due to licensing issues we cannot provide each solver in this repository. In this case, you can acccess the solver by the provided links. Several solvers require the GMP Bignumpackage to handle large numbers of satisfying assignments.
 
 ### DPLL
 
 * [Cachet](https://www.cs.rochester.edu/u/kautz/Cachet/) (Solver not included here due to License)
 * [countAntom](https://projects.informatik.uni-freiburg.de/projects/countantom) (Binary provided)
-* [Ganak](https://github.com/meelgroup/ganak) (Source provided)
-* [PicoSAT](http://fmv.jku.at/picosat/)
-* [Relsat](https://code.google.com/archive/p/relsat/)
+* [Ganak](https://github.com/meelgroup/ganak) (Binary provided)
+* [PicoSAT](http://fmv.jku.at/picosat/) (Binary provided)
+* [Relsat](https://code.google.com/archive/p/relsat/) (Binary provided)
 * [sharpCDCL](http://tools.computational-logic.org/content/sharpCDCL.php)
-* [sharpSAT](https://github.com/marcthurley/sharpSAT)
+* [sharpSAT](https://github.com/marcthurley/sharpSAT) (Binary provided)
 
 ### d-DNNF
 * [c2d](http://reasoning.cs.ucla.edu/c2d/)
