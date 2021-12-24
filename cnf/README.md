@@ -15,8 +15,8 @@ In the following, we present a list of sources we used for the evaluated systems
 * Automotive 03-05 (confidential and, thus, not included)
 
 
-### Variability Models
-|Variability Model |Version |Domain            |Number of Models|Number of Features|Number of Constraints|
+### Feature Models
+|Feature Model |Version |Domain            |Number of Models|Number of Features|Number of Constraints|
 |------------------|--------------|------------------|--------------|----------------|-------------------|
 |Automotive01      |v1 |Automotive        |1             |2513            |2833               |
 |Automotive02      |v4 |Automotive        |1             |18,616     |1,369           |
