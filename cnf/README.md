@@ -13,3 +13,21 @@ In the following, we present a list of sources we used for the evaluated systems
   * [Automotive01](https://github.com/FeatureIDE/FeatureIDE/tree/develop/plugins/de.ovgu.featureide.examples/featureide_examples/FeatureModels/Automotive01)
   * [BerkeleyDB](https://github.com/FeatureIDE/FeatureIDE/tree/develop/plugins/de.ovgu.featureide.examples/featureide_examples/FeatureModels/BerkeleyDB)
 * Automotive 03-05 (confidential and, thus, not included)
+
+
+### Variability Models
+|Variability Model |Version |Domain            |Number of Models|Number of Features|Number of Constraints|
+|------------------|--------------|------------------|--------------|----------------|-------------------|
+|Automotive01      |v1 |Automotive        |1             |2513            |2833               |
+|Automotive02      |v4 |Automotive        |1             |18,616     |1,369           |
+|BusyBox           |2010-05-02 |Operating System  |1            |631         |681            |
+|CDL               |n.a. |Operating System  |116           |1178–1,408       |816–956            |
+|BerkeleyDB        |n.a. |Database          |1             |76              |20                 |
+|Financial Services|v10 |Financial Services|1            |771        |1,080         |
+|KConfig axTLS            |n.a. | Operating System | 1             |96         |14             |
+|KConfig uCLibc           |n.a. |Operating System  |1             |313         |56            |
+|KConfig uClinux-base          |n.a. |Operating System  |1             |380         |3,455            |
+|KConfig Embtoolkit          |n.a. |Operating System  |1             |1,179         |323            |
+|KConfig uClinux-Distribution          |n.a. |Operating System  |1             |1,580         |197            |
+|KConfig Embtoolkit          |n.a. |Operating System  |1             |1,179         |323            |
+|KConfig Linux    |2.6.33.3 |Operating System  |1             |6,467            |3,545               |
