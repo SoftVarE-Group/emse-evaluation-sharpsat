@@ -12,3 +12,4 @@ In the following, we present a list of sources we used for the evaluated systems
   * [FinancialServices](https://github.com/FeatureIDE/FeatureIDE/tree/develop/plugins/de.ovgu.featureide.examples/featureide_examples/FeatureModels/FinancialServices01)
   * [Automotive01](https://github.com/FeatureIDE/FeatureIDE/tree/develop/plugins/de.ovgu.featureide.examples/featureide_examples/FeatureModels/Automotive01)
   * [BerkeleyDB](https://github.com/FeatureIDE/FeatureIDE/tree/develop/plugins/de.ovgu.featureide.examples/featureide_examples/FeatureModels/BerkeleyDB)
+* Automotive 03-05 (confidential and, thus, not included)
