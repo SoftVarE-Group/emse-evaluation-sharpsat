@@ -1,7 +1,7 @@
 {
     "suppress_output" : false,
     "show_progress" : false,
-    "output_dir" : "results/experiment_1/stage_3/",
+    "output_dir" : "results/experiment1/stage_3/",
     "timeout" : 86400,
     "max_memory": 8000,
     "number_of_runs" : 1,
@@ -28,6 +28,21 @@
         {
             "name" : "countAntom",
             "command" : "solvers/countAntom --memSize={memory} {file}",
+            "print_parameters": ["file"],
+            "instances" : [
+                {
+                    "default_parameters": {
+                        "memory" : "8000"
+                    },
+                    "parameters": [
+                    ]
+                }      
+            ]
+    
+        },
+        {
+            "name" : "countAntom1t",
+            "command" : "solvers/countAntom --noThreads=1 --memSize={memory} {file}",
             "print_parameters": ["file"],
             "instances" : [
                 {

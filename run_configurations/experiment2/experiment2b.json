@@ -1,7 +1,7 @@
 {
     "suppress_output" : false,
     "show_progress" : false,
-    "output_dir" : "results/experiment1/stage_2/",
+    "output_dir" : "results/experiment2/stage2/",
     "timeout" : 600,
     "max_memory": 8000,
     "number_of_runs" : 50,
@@ -136,128 +136,8 @@
     ],
     "cmd_calls" : [
         {
-            "name" : "sharpSAT",
-            "command" : "solvers/sharpSAT -cs {memory} {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-			"memory": "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "countAntom",
-            "command" : "solvers/countAntom --memSize={memory} {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "countAntom1t",
-            "command" : "solvers/countAntom --noThreads=1 --memSize={memory} {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "d4",
-            "command" : "solvers/d4 {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "c2d",
-            "command" : "solvers/c2d -smooth_all -count -in_memory -cache_size {memory} -in {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "cachet",
-            "command" : "solvers/cachet-wmc {file} -c {memory}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "dsharp",
-            "command" : "solvers/dsharp -cs {memory} {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "miniC2D",
-            "command" : "solvers/miniC2D/bin/linux/miniC2D --model_counter --in_memory --cnf {file}",
-            "print_parameters": ["file"],
-            "instances" : [
-                {
-                    "default_parameters": {
-                        "memory" : "8000"
-                    },
-                    "parameters": [
-                    ]
-                }      
-            ]
-    
-        },
-        {
-            "name" : "ganak",
-            "command" : "solvers/ganak/bin/ganak -cs {memory} {file}",
+            "name" : "approxCount",
+            "command" : "solvers/approximate/approxcount {file}",
             "print_parameters": ["file"],
             "instances" : [
                 {
@@ -270,5 +150,6 @@
             ]
     
         }
+
     ]
 }
