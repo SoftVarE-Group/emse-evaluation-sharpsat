@@ -12,6 +12,12 @@ For our empirical evaluation, we considered the following solvers/ knowledge com
 * [sharpCDCL](http://tools.computational-logic.org/content/sharpCDCL.php)
 * [sharpSAT](https://github.com/marcthurley/sharpSAT) (Binary provided)
 
+
+### Algebraic
+* [ADDMC](https://zenodo.org/record/4292581#.X_NnGOndva4) (Binary provided)
+* [SUMC1](https://zenodo.org/record/4292581#.X_NnGOndva4) (Binary provided)
+* [mcTw](https://zenodo.org/record/4292581#.X_NnGOndva4) (Binary provided)
+
 ### d-DNNF
 * [c2d](http://reasoning.cs.ucla.edu/c2d/) (Solver not included here due to license, refer to link)
 * [d4](http://www.cril.univ-artois.fr/kc/d4.html) (Binary provided)
@@ -27,6 +33,7 @@ For BuDDy and Cudd, we used the dduerum wrapper which provides the required file
 ### Other
 * [CNF2EADT](http://www.cril.univ-artois.fr/kc/eadt.html) (Solver not included here due to license, refer to link)
 * [miniC2D](http://reasoning.cs.ucla.edu/minic2d/) (Source provided)
+* [SDD](https://zenodo.org/record/4292581#.X_NnGOndva4) (Binary provided)
 
 ### Approximate
 * [ApproxMC](https://github.com/meelgroup/approxmc) (Source provided)

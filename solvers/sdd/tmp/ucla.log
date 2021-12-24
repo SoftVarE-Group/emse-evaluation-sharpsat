@@ -1,0 +1,13 @@
+
+reading cnf...vars=76 clauses=141
+creating initial vtree (balanced)...
+creating manager...
+compiling...
+
+compilation time        : 0.675 sec
+ sdd size               : 989 
+ sdd node count         : 459 
+ sdd model count        : 4,080,389,785    0.000 sec
+saving compiled sdd ...done
+saving vtree...done
+freeing...done

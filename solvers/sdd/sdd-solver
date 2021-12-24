@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+BIN_DIR=$(realpath $(dirname $0))
+TMP_BASENAME="tmp/ucla"
+TMP_CNF="${TMP_BASENAME}.cnf"
+TMP_SDD="${TMP_BASENAME}.sdd"
+TMP_VTREE="${TMP_BASENAME}.vtree"
+TMP_LOG="${TMP_BASENAME}.log"
+EXE="$BIN_DIR/bin/sdd-linux"
+
+mkdir -p tmp
+cat > $TMP_CNF
+$EXE -c $TMP_CNF -R $TMP_SDD -W $TMP_VTREE > $TMP_LOG
+OUTPUT=$(grep "sdd model count" $TMP_LOG)
+MC=$(python3 -c "print('${OUTPUT}'.split(':')[1].strip().split(' ')[0])")
+#echo "s mc ${MC//,}"
+$BIN_DIR/pypsdd/count.py
