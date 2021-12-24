@@ -1,6 +1,6 @@
 # Systems
 
-In the following, we present a list of sources we used for the evaluated systems.  Note that `Automotive03-05` cannot be published. Each directory contains feature model(s) corresponding to the subject system. KConfig and CDL feature models are grouped for better readabality.
+In the following, we present a list of sources we used for the evaluated systems.  Note that `Automotive03-05` cannot be published. Each directory contains feature model(s) corresponding to the subject system. KConfig and CDL feature models are grouped for better readability.
 
 * Knüppel et al. \[[KTM+:SE18](https://dl.acm.org/doi/abs/10.1145/3106237.3106252)\]
   * [CDL](https://github.com/AlexanderKnueppel/is-there-a-mismatch/tree/master/Data/LargeFeatureModels/CDL)
