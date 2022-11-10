@@ -9,7 +9,7 @@ For our empirical evaluation, we considered the following solvers/ knowledge com
 * [Ganak](https://github.com/meelgroup/ganak) (Binary provided)
 * [PicoSAT](http://fmv.jku.at/picosat/) (Binary provided)
 * [Relsat](https://code.google.com/archive/p/relsat/) (Binary provided)
-* [sharpCDCL](http://tools.computational-logic.org/content/sharpCDCL.php)
+* [sharpCDCL](https://github.com/conp-solutions/sharpCDCL) (Solver not included here due to license, refer to link)
 * [sharpSAT](https://github.com/marcthurley/sharpSAT) (Binary provided)
 
 
@@ -25,7 +25,7 @@ For our empirical evaluation, we considered the following solvers/ knowledge com
 
 ### BDD
 For BuDDy and Cudd, we used the dduerum wrapper which provides the required files to run BuDDy Cudd. Thus, for the benchmark it is sufficient to use dduerum and CNF2OBDD.
-* [dduerum] (https://github.com/h3ssto/ddueruem) (Source provided)
+* [dduerum](https://github.com/h3ssto/ddueruem-web) (Source provided)
 * [BuDDy](http://buddy.sourceforge.net/manual/main.html) (Included in dduerum)
 * [Cudd](https://github.com/vscosta/cudd) (Included in dduerum)
 * [CNF2OBDD](www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (Binary provided, bdd_minisat_all_static)
