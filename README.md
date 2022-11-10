@@ -1,9 +1,9 @@
-# Empirical Evaluation for `Evaluating #SAT Solvers on Industrial Feature Models` (EMSE'21)
+# Empirical Evaluation for `Evaluating #SAT Solvers on Industrial Feature Models` (EMSE)
 [![DOI](https://zenodo.org/badge/342821849.svg)](https://zenodo.org/badge/latestdoi/342821849)
 
 
 
-This repository provides a benchmark framework and experiments to evaluate #SAT solvers and different knowledge compilers. The experiment design implied by the run configurations can be used to repeat the experiments for our submission to EMSE'21 `Evaluating #SAT Solvers on Industrial Feature Models`.
+This repository provides a benchmark framework and experiments to evaluate #SAT solvers and different knowledge compilers. The experiment design implied by the run configurations can be used to repeat the experiments for our paper `Evaluating #SAT Solvers on Industrial Feature Models` accepted at the EMSE special issue `Software Product Lines and Variability-rich Systems`.
 
 
 ## How to build
