@@ -23,7 +23,7 @@ python3 run.py run_configurations/experiment.json
 
 ## Resources
 
-[Solvers](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/master/solvers)
+[Solvers](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/main/solvers)
 
-[Subject Systems](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/master/cnf)
+[Subject Systems](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/main/cnf)
 
