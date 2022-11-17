@@ -1,4 +1,4 @@
-# Empirical Evaluation for `Evaluating #SAT Solvers on Industrial Feature Models` (EMSE)
+# Empirical Evaluation for `Evaluating State-of-the-Art #SAT Solvers on Industrial Configuration Spaces` (EMSE)
 [![DOI](https://zenodo.org/badge/342821849.svg)](https://zenodo.org/badge/latestdoi/342821849)
 
 
@@ -23,7 +23,7 @@ python3 run.py run_configurations/experiment.json
 
 ## Resources
 
-[Solvers](https://github.com/SoftVarE-Group/emse21-evaluation-sharpsat/tree/master/solvers)
+[Solvers](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/master/solvers)
 
-[Subject Systems](https://github.com/SoftVarE-Group/emse21-evaluation-sharpsat/tree/master/cnf)
+[Subject Systems](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/master/cnf)
 
