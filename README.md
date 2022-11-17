@@ -1,4 +1,4 @@
-# Empirical Evaluation for `Evaluating State-of-the-Art #SAT Solvers on Industrial Configuration Spaces` (EMSE)
+# Replication Package for `Evaluating State-of-the-Art #SAT Solvers on Industrial Configuration Spaces` (EMSE)
 [![DOI](https://zenodo.org/badge/342821849.svg)](https://zenodo.org/badge/latestdoi/342821849)
 
 
