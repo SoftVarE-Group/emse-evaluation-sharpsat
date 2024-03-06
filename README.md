@@ -27,3 +27,7 @@ python3 run.py run_configurations/experiment.json
 
 [Subject Systems](https://github.com/SoftVarE-Group/emse-evaluation-sharpsat/tree/main/cnf)
 
+## License
+
+The MIT license only applies to src/ run_configurations/ and tools/.
+For the solvers, please find the respective licenses in solvers/Licenses. 
